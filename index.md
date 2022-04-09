@@ -1,10 +1,11 @@
-# CSE 15L
-## Fun class!
+# CSE 15L Spring 2022
+## Fun class! :)
 [Link to course schedule](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0)
 ![Image](https://wallup.net/wp-content/uploads/2016/03/12/303903-nature-cat.jpg)
+
 > *A cat!*
+
 ## A list
-* list
 * list
 * list
 
