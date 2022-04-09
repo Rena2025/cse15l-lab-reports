@@ -1,16 +1,20 @@
 # CSE 15L
 ## Fun class!
-## Things you learn
-* Remote access
-* Github
+[Link to course schedule](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0)
+![Image](https://wallup.net/wp-content/uploads/2016/03/12/303903-nature-cat.jpg)
+## A list
+* list
+* list
+* list
 
-## Today is 
-1. hot
-2. hot
-3. hot
+## A numbered list
+1. one
+2. two
+3. three
 
-Horizontal rule:
 
 ---
+
+
 
 
