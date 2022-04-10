@@ -6,25 +6,25 @@ This tutorial will walk you through the steps to log into a course-specific acco
 
 ## Step 1: Install VScode on your local computer
 
-* Go to https://code.visualstudio.com/ to download and install VScode on your computer
-* If your computer has a linux or macOS system, click on the downward arrow on the blue button to download the correct version for your computer
+* Go to https://code.visualstudio.com/ to download and install VScode on your computer.
+* If your computer has a linux or macOS system, click on the downward arrow on the blue button to download the correct version for your computer.
 
-> *The website should look like this*
+> *The website should look like this:*
 
 ![Image](lab1-step2.png)
 
 
-> *You should see something like this when you open VScode*
+> *You should see something like this when you open VScode:*
 
 ![Image](lab-1-step-1.png)
 
 ## Step 2: Remotely Connecting
 
-* Open up a new terminal and enter the following command: `ssh cse15lsp22akn@ieng6.ucsd.edu`. Replace the part before @ with your own course-specific account
+* Open up a new terminal and enter the following command: `ssh cse15lsp22akn@ieng6.ucsd.edu`. Replace the part before @ with your own course-specific account.
 
-* Enter yes when it asks you if you want to continue connecting
+* Enter yes when it asks you if you want to continue connecting.
 
-* When prompted to type password, enter your password corresponding to your course-specific account
+* When prompted to type password, enter your password corresponding to your course-specific account.
 
 >*After you successfully log in, your terminal should look like this:*
 
@@ -52,11 +52,11 @@ This tutorial will walk you through the steps to log into a course-specific acco
 
 * To copy a file from your computer to the server, run the command: `scp WhereAmI.txt cse15lsp22akn@ieng6.ucsd.edu:~/`.
 
-* Make sure that you are in the directory where your file is located (Use cd to change directory if needed). Replace WhereAmI.txt with the file you are trying to copy and the username with your own username.
+* Make sure that you are in the directory where your file is located (Use `cd` to change directory if needed). Replace WhereAmI.txt with the file you are trying to copy and the username with your own username.
 
 * Enter your password when prompted.
 
-> *When you log into the server again, you can check if your file is in the server diretory by typing **ls***
+> *When you log into the server again, you can check if your file is in the server diretory by typing **ls**.*
 
 ![Image](lab1-step4.png)
 
@@ -102,5 +102,3 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22akn@ieng6.ucsd.edu:~/.ssh/auth
 
 >
 ![Image](lab1-step6.png)
-
----
