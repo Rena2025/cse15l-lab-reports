@@ -2,6 +2,8 @@
 
 This tutorial will walk you through the steps to log into a course-specific account on the ieng6 server and how to copy a file from your local computer to a server computer.
 
+---
+
 ## Step 1: Install VScode on your local computer
 
 * Go to https://code.visualstudio.com/ to download and install VScode on your computer
@@ -67,9 +69,15 @@ This tutorial will walk you through the steps to log into a course-specific acco
 ```
 # On client
 
-ssh-keygen
+$ssh-keygen
 
-Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+// When this line shows up
+Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): 
+
+// Enter
+/Users/<user-name>/.ssh/id_rsa
+
+// replace <user-name> with your own username on your local computer 
 ```
 
 ```
@@ -79,7 +87,7 @@ mkdir .ssh
 
 ```
 # On client
-scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22akn@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
 > *When you log into the server again, you shouldn't need to type your password.*
@@ -88,9 +96,12 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authori
 
 ## Step 6: Optimizing Remote Running
 
-* To further simplify and speed up the process, you can combine multiple commands into one line by using semicolons.
-* For instance, this line allows you to copy the file from client to server and running it on the server:  `scp WhereAmI.java cs15lsp22akn@ieng6.ucsd.edu:~/; ssh cs15lsp22akn@ieng6.ucsd.edu "javac WhereAmI.java"; java WhereAmI`
+* To further simplify and speed up the remote-running process, you can combine multiple commands into one line by using semicolons.
+* For instance, this line allows you to copy the file from client to server and compiling it on the server:  `scp WhereAmI.java cs15lsp22akn@ieng6.ucsd.edu:~/; ssh cs15lsp22akn@ieng6.ucsd.edu "javac WhereAmI.java"`
 
 (Tip: quotation marks around command to be run on the server)
 
-![Image]()
+>
+![Image](lab1-step6.png)
+
+---
