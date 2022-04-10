@@ -74,10 +74,9 @@ $ssh-keygen
 // When this line shows up
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): 
 
-// Enter
-/Users/<user-name>/.ssh/id_rsa
+// copy and paste what's in the parentheses and enter
 
-// replace <user-name> with your own username on your local computer 
+// hit enter when it asks for a passphrase
 ```
 
 ```
