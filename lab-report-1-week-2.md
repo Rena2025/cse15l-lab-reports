@@ -26,7 +26,7 @@ This tutorial will walk you through the steps to log into a course-specific acco
 
 * When prompted to type password, enter your password corresponding to your course-specific account
 
->After you successfully log in, your terminal should look like this:
+>*After you successfully log in, your terminal should look like this:*
 
 ![Image](lab1-step2-terminal.png)
 
@@ -69,7 +69,7 @@ This tutorial will walk you through the steps to log into a course-specific acco
 ```
 # On client
 
-$ssh-keygen
+$ ssh-keygen
 
 // When this line shows up
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): 
@@ -81,12 +81,12 @@ Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa):
 
 ```
 # On server
-mkdir .ssh
+$ mkdir .ssh
 ```
 
 ```
 # On client
-scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22akn@ieng6.ucsd.edu:~/.ssh/authorized_keys
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22akn@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
 > *When you log into the server again, you shouldn't need to type your password.*
