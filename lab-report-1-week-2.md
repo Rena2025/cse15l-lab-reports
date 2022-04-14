@@ -6,7 +6,7 @@ This tutorial will walk you through the steps to log into a course-specific acco
 
 ## Step 1: Install VScode on your local computer
 
-* Download and install VScode on your computer [Link to download VScode](https://code.visualstudio.com/)
+* Download and install [VScode](https://code.visualstudio.com/) on your computer
 * If your computer has a linux or macOS system, click on the downward arrow on the blue button to download the correct version for your computer.
 
 > *The website should look like this:*
