@@ -1,0 +1,4 @@
+Host github.com
+    HostName github.com
+    User Rena2025
+    IdentityFile ~/.ssh/id_rsa_github

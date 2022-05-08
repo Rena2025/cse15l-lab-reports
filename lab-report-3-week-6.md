@@ -6,14 +6,19 @@
 * The host name can be anything, but I chose to remain with ieng6.
 ![image](lab3-part1.png)
 
-* Then log into the ieng6 account with the command `ssh ieng6`. Now no account name and password are required to log into my course account.
+* Then log into the ieng6 account with the command `ssh ieng6`. Now no account name and password are required to log into my course.
 ![image](lab3-part1(3).png)
 
 * Then using the `scp` command, copy a file from the local computer to the server computer's home directory. Use `ls` to check that the file exists in the server's home directory.
 ![image](lab3-part1(2).png)
 
 ## Part 2: Setup Github Access from ieng6
+* Generated an ssh key on my ieng6 account. Both the private and public keys are stored in the `.ssh` directory in my account.
+![image](lab3-part2(2).png)
 
+* Added ssh key to my github account.
+![image](lab3-part2.png)
+* [Commit](https://github.com/Rena2025/LabReport3/commit/03e6f57b75b497c6c2b9556a10d83e39764ee771)
 
 ## Part 3: Copy whole directories with `scp -r`
 
