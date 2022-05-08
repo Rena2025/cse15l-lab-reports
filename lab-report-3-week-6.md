@@ -24,5 +24,9 @@
 This is the commit link on Github.com. [Commit](https://github.com/Rena2025/markdown-parser/blob/main/test-file9.md)
 
 ## Part 3: Copy whole directories with `scp -r`
+* Copying the markdown-parser directory from my local computer to the ieng6 computer.
+![image](lab3-part3.png)
+![image](lab3-part3-2.png)
+![image](lab3-part3-3.png)
 
 
