@@ -13,25 +13,25 @@
 ![image](lab3-part1(2).png)
 
 ## Part 2: Setup Github Access from ieng6
-* Generated an ssh key on my ieng6 account using `ssh-keygen`. Both the private and public keys are stored in the `.ssh` directory in my account.
+* Generate an ssh key on my ieng6 account using `ssh-keygen`. Both the private and public keys are stored in the `.ssh` directory in my account.
 ![image](lab3-part2(2).png)
 
-* Added ssh key to my github account by copying the public key into github ssh key.
+* Add ssh key to my github account by copying the public key into a new github ssh key.
 ![image](lab3-part2.png)
 
-* Added a new file to my markdown-parser repo through using git commands on my ieng6 account.
-* (git clone, git add, git commit -m, git push, etc.)
+* Add a new file to my markdown-parser repo through using git commands on my ieng6 account. (git clone, git add, git commit -m, git push, etc.)
 ![image](lab3-part2(3).png)
 ![image](lab3-part2(4).png)
 This is the commit link on Github.com: [Commit](https://github.com/Rena2025/markdown-parser/blob/main/test-file9.md)
 
 ## Part 3: Copy whole directories with `scp -r`
-* Copying the markdown-parser directory from my local computer to the ieng6 computer.
+* (the markdown-parser-new here has the same content as markdown-parser)
+* Copy the markdown-parser-new directory from my local computer to the ieng6 computer.
 ![image](lab3-part3.png)
 ![image](lab3-part3-2.png)
 ![image](lab3-part3-3.png)
 
-* Compiling and running the tests in the MarkParserTest.java file in the markdown-parser repo on the ieng6 account.
+* Compile and run the tests in the *MarkParserTest.java* file in the markdown-parser-new repo on the ieng6 account.
 ![image](lab3-part3-4.png)
 ![image](lab3-part3-5.png)
 
