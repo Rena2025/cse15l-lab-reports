@@ -18,7 +18,7 @@
 
 * Added ssh key to my github account.
 ![image](lab3-part2.png)
-* [Commit](https://github.com/Rena2025/LabReport3/commit/03e6f57b75b497c6c2b9556a10d83e39764ee771)
+* Added a new file to my markdown-parser repo through using git commands on my ieng6 account.[Commit](https://github.com/Rena2025/markdown-parser/blob/main/test-file9.md)
 
 ## Part 3: Copy whole directories with `scp -r`
 
