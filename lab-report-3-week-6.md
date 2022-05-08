@@ -29,4 +29,15 @@ This is the commit link on Github.com. [Commit](https://github.com/Rena2025/mark
 ![image](lab3-part3-2.png)
 ![image](lab3-part3-3.png)
 
+* Compiling and running the tests on the ieng6 account.
+![image](lab3-part3-4.png)
+![image](lab3-part3-5.png)
+
+* Copying the directory and running the tests on the server by combining the commands all in one line on the local machine.
+![image](lab3-part3-6.png)
+![image](lab3-part3-7.png)
+![image](lab3-part3-8.png)
+![image](lab3-part3-9.png)
+
+
 
