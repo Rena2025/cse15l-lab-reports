@@ -6,7 +6,7 @@
 * The host name can be anything, but I chose to remain with ieng6.
 ![image](lab3-part1.png)
 
-* Then log into the ieng6 account with the command `ssh ieng6`. Now no account name and password are required to log into my course.
+* Then log into the ieng6 account with the command `ssh ieng6`. Now no account name and password are required to log in.
 ![image](lab3-part1(3).png)
 
 * Then using the `scp` command, copy a file from the local computer to the server computer's home directory. Use `ls` to check that the file exists in the server's home directory.
