@@ -22,7 +22,7 @@
 * Add a new file to my markdown-parser repo through using git commands on my ieng6 account. (git clone, git add, git commit -m, git push, etc.)
 ![image](lab3-part2(3).png)
 ![image](lab3-part2(4).png)
-This is the commit link on Github.com: [Commit](https://github.com/Rena2025/markdown-parser/commit/d02c49ba861ed92b74cbac3ddbeedab4ae10bf24d)
+This is the commit link on Github.com: [Commit](https://github.com/Rena2025/markdown-parser/commit/d02c49ba861ed92b74cbac3ddbeedab4ae10bf24)
 
 ## Part 3: Copy whole directories with `scp -r`
 * (the markdown-parser-new here has the same content as markdown-parser)
