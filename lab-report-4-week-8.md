@@ -34,7 +34,7 @@ Links to my repo and the reviewed repo:
 * Reviewed repo's implementation also did not pass the junit test:
 ![image]()
 
-* Possible solution: Since my implemenation worked for all the links except the second one, I need to focus on that case. The error was generated because my implementation wrongly recorded the index of the first close parenthesis instead of the third one, so I could use a while loop to find the index of the last close parenthesis of this link. In other words, if `closeParen + 1 == ')'`, then I increment the index of closeParen, given that index don't go out of bounds. 
+* Possible solution: Since my implemenation worked for all the links except the second one, I need to focus on that case. The error was generated because my implementation wrongly recorded the index of the first close parenthesis instead of the third one, so I could use a while loop to find the index of the last close parenthesis of this link. In other words, if the character at `closeParen + 1 == ')'`, then I increment the index of closeParen, given that the index don't go out of bounds. 
 
 ## Snippet 3
 * Preview on Commonmark: ![image](lab4-snippet3.png)
@@ -48,4 +48,6 @@ Links to my repo and the reviewed repo:
 
 * Reviewed repo's implementation also did not pass the junit test:
 ![image]()
+
+* Possible solution: Whenever there are more than one line breaks between the open and close brackets, the program should skip that link and go to the next set of open and close brackets because the format is invalid. Similarly, whenever there are more than one line breaks (consecutive) between the open and close parentheses, the program should not count what's inside the parentheses as a link. This might be difficult to achieve in 10 lines because there are many variables to update.
 
