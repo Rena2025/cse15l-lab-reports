@@ -7,6 +7,8 @@
 
 [Lab Report 3](https://Rena2025.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+[Lab Report 4](https://Rena2025.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 [Link to course schedule](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule?authuser=0)
 
 ![Image](https://wallup.net/wp-content/uploads/2016/03/12/303903-nature-cat.jpg)
